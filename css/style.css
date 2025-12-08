@@ -93,7 +93,7 @@ h2.h2 {
 }
 
 div.sigle_placea {
-    background-color: #f2e3d6;
+    background-color: #e5e8e8;
     text-align: center;
     padding: 8px;
     margin: 8px;
@@ -102,13 +102,13 @@ div.sigle_placea {
 
 h3.h3 {
     padding: 4px;
-    color: #653133;
+    color: rgb(8, 25, 20);
 }
 
 /* odtąd jest już ładnie z tablicy :) */
 /* newsletter */
 section.newsletter {
-    background-color: #653133;
+    background-color: #23443a;
     color: #fff;
     padding: 20px;
 
@@ -124,13 +124,14 @@ section.newletter p {
 }
 
 section.newsletter form button {
-    background-color: #f2e3d6;
-    border: 1px solid #f2e3d6;
+    background-color: #edfbf9;
+    border: 1px solid #edfbf9;
     color: black;
     padding: 10px 20px;
     border-radius: 20px;
     margin-top: 10px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section.newsletter form .form_input_box {
@@ -142,31 +143,34 @@ section.newsletter form .form_input_box {
 
 section.newsletter form .form_input_box input {
     width: 100%;
-    margin-bottom: 10px;
-    padding-left: 10px 0 10px 10px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding: 4px 0 4px 12px;
     border-radius: 10px;
     border: none;
 }
 
 section.newsletter form button:hover {
-    background-color: aqua;
-    border: 1px solid #f2e3d6;
-    color: #f2e3d6;
+    background-color: #23443a;
+    border: 1px solid #edfbf9;
+    color: #edfbf9;
     transition: 0.3s;
+
 }
 
 /* komentarze */
 section.comments {
-    background-image: url('https://cdn.pixabay.com/photo/2015/08/30/19/07/venice-914594_960_720.jpg');
+    background-image: url("../img/wenecjakolor.jpg");
     background-repeat: no-repeat;
     background-position: 55% 55%;
     background-size: cover;
     background-attachment: fixed;
+    
 
 }
 
 section.comments .singlecomment {
-    background-color: #f2e3d68d;
+    background-color: #f9fffed2;
     margin-bottom: 20px;
     margin-left: 8px;
     margin-right: 8px;
@@ -191,28 +195,29 @@ header {
     width: 100%;
     height: 100vh;
     padding: 10px;
-    background-image: url('https://cdn.pixabay.com/photo/2015/08/30/19/07/venice-914594_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/19/21/29/venice-2659940_1280.jpg');
     background-repeat: no-repeat;
-    background-position: 55% 55%;
+    background-position: 30% 55%;
     background-size: cover;
 
 }
 
 header a, section.faq a {
-    background-color: #f2e3d6;
-    border: 1px solid #f2e3d6;
+    background-color: #edfbf9;
+    border: 1px solid #edfbf9;
     color: black;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 20px;
-    margin-top: 10px;
-    width: 70%;
+    margin-top: 10px; 
     text-align: center
 }
 
+
+
 header a:hover {
-    background-color: aqua;
-    border: 1px solid #f2e3d6;
-    color: #f2e3d6;
+    background-color: #23443a;
+    border: 1px solid #edfbf9;
+    color: #edfbf9;
     transition: 0.3s;
 }
