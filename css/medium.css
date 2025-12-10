@@ -48,3 +48,9 @@ section.map iframe {
     max-width: 728px;
    
 }
+/* ... */
+
+div.accordion {
+    width: 100%;   
+    max-width: 728px;
+}
